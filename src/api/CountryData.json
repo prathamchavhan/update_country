@@ -1,0 +1,212 @@
+[
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "population": 1400000000,
+    "currency": "INR"
+  },
+  {
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "population": 331000000,
+    "currency": "USD"
+  },
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "population": 1440000000,
+    "currency": "CNY"
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "Americas",
+    "population": 213000000,
+    "currency": "BRL"
+  },
+  {
+    "name": "Russia",
+    "capital": "Moscow",
+    "region": "Europe/Asia",
+    "population": 146000000,
+    "currency": "RUB"
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "population": 83000000,
+    "currency": "EUR"
+  },
+  {
+    "name": "United Kingdom",
+    "capital": "London",
+    "region": "Europe",
+    "population": 67000000,
+    "currency": "GBP"
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "population": 67000000,
+    "currency": "EUR"
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "population": 125000000,
+    "currency": "JPY"
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "population": 38000000,
+    "currency": "CAD"
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "population": 26000000,
+    "currency": "AUD"
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "region": "Europe",
+    "population": 59000000,
+    "currency": "EUR"
+  },
+  {
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "region": "Americas",
+    "population": 128000000,
+    "currency": "MXN"
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "population": 60000000,
+    "currency": "ZAR"
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "population": 105000000,
+    "currency": "EGP"
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "population": 213000000,
+    "currency": "NGN"
+  },
+  {
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "Americas",
+    "population": 45000000,
+    "currency": "ARS"
+  },
+  {
+    "name": "Spain",
+    "capital": "Madrid",
+    "region": "Europe",
+    "population": 47000000,
+    "currency": "EUR"
+  },
+  {
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "region": "Asia",
+    "population": 275000000,
+    "currency": "IDR"
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "population": 240000000,
+    "currency": "PKR"
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "Asia",
+    "population": 170000000,
+    "currency": "BDT"
+  },
+  {
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "Asia",
+    "population": 36000000,
+    "currency": "SAR"
+  },
+  {
+    "name": "South Korea",
+    "capital": "Seoul",
+    "region": "Asia",
+    "population": 52000000,
+    "currency": "KRW"
+  },
+  {
+    "name": "Turkey",
+    "capital": "Ankara",
+    "region": "Asia/Europe",
+    "population": 85000000,
+    "currency": "TRY"
+  },
+  {
+    "name": "Iran",
+    "capital": "Tehran",
+    "region": "Asia",
+    "population": 88000000,
+    "currency": "IRR"
+  },
+  {
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "population": 98000000,
+    "currency": "VND"
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manila",
+    "region": "Asia",
+    "population": 113000000,
+    "currency": "PHP"
+  },
+  {
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "population": 70000000,
+    "currency": "THB"
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "region": "Europe",
+    "population": 41000000,
+    "currency": "UAH"
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "population": 38000000,
+    "currency": "PLN"
+  }
+]

@@ -1,0 +1,57 @@
+
+.section-about {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+.container-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+
+.gradient-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background: linear-gradient(to bottom right, #444d4d, #0c0c0c);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  transition: transform 0.3s, background 0.4s, box-shadow 0.4s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(to bottom right, #375050, #0b0c0d);
+  box-shadow: 0 12px 30px rgba(14, 15, 15, 0.4);
+}
+
+.bg-blue-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+
+.card-title p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.class-discription {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffffff;
+}
