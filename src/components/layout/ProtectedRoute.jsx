@@ -7,18 +7,17 @@ export const ProtectedRoute = (props) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-
-    supabase.auth.getSession().then(function(response) {
+    supabase.auth.getSession().then((response) => {
       setSession(response.data.session);
       setLoading(false);
     });
 
-    const listener = supabase.auth.onAuthStateChange(function(event, sessionData) {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, sessionData) => {
       setSession(sessionData);
     });
 
-    return function() {
-      listener.data.subscription.unsubscribe();
+    return () => {
+      subscription.unsubscribe();
     };
   }, []);
 
@@ -26,10 +25,10 @@ export const ProtectedRoute = (props) => {
     return <h2 style={{ textAlign: "center" }}>Loading...</h2>;
   }
 
-
+ 
   if (session) {
     return props.children;
   } else {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/signup" replace />;
   }
 };
