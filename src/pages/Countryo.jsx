@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { supabase } from "../createClient";
-import "./Countyo.css";
+import "./countyo.css";
 
 export function Countryo() {
   const [countries, setCountries] = useState([]);
