@@ -5,7 +5,7 @@ export const About =()=>{
     
     <section className="section-about container">
      <h2 className="container-title">
-        here are the interesting facts
+        Here are the interesting facts
         <br/>
      </h2>
      <div className="gradient-cards">
@@ -16,7 +16,7 @@ export const About =()=>{
                 <div className="card" key={name}>
                <div className="container bg-blue-box ">
                 <div className="card-title">
-                   <p ></p>
+                  
                    <p>
                     <span className=" class-discription">capital:{capital}
                     </span>

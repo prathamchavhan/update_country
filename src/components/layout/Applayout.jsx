@@ -1,15 +1,16 @@
-import {Headers} from "../ui/Headers.JSX";
-import {Footers} from "../ui/Footers.JSX";
-import {Outlet} from "react-router-dom";
+import { Headers } from "../ui/Headers.jsx";
+import { Footers } from "../ui/Footers.jsx";
+import { Outlet, useLocation } from "react-router-dom";
 
+export const Applayout = () => {
+  const location = useLocation();
+  const hideLayout = location.pathname === "/login" || location.pathname === "/signup";
 
-export const Applayout =()=>{
-    return (
+  return (
     <>
-   
-    <Headers/>|
-     <Outlet />
-    <Footers/>
+      {!hideLayout && <Headers />}
+      <Outlet />
+      {!hideLayout && <Footers />}
     </>
-    );
+  );
 };

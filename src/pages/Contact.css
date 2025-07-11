@@ -1,53 +1,81 @@
-
+/* === Contact Section (Full Page Centered in Black) === */
 .section-contact {
-  background-color: #f9f9f9;
-  padding: 4rem 1rem;
+  min-height: 100vh;
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
 }
 
-.container-title {
-  text-align: center;
-  font-size: 2rem;
-  color: #111;
-  margin-bottom: 2rem;
-}
-
+/* === Form Card Container === */
 .container-wrapper {
-  max-width: 600px;
-  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(20, 20, 20, 0.7);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
+/* === Form Title (Gradient Text) === */
+.container-title {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+/* === Input Fields (Name, Age, Phone) === */
 .container-wrapper input,
 .container-wrapper textarea {
-  padding: 0.75rem 1rem;
+  padding: 0.9rem 1.2rem;
   font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: #eee;
   font-family: inherit;
-  transition: 0.3s ease all;
+  backdrop-filter: blur(10px);
+  transition: border 0.3s ease, transform 0.2s ease;
+}
+
+.container-wrapper input::placeholder,
+.container-wrapper textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .container-wrapper input:focus,
 .container-wrapper textarea:focus {
+  border-color: #00f2fe;
   outline: none;
-  border-color: #000;
-  background-color: #fff;
+  transform: scale(1.02);
 }
 
+/* === Submit Button (Vibrant Blue Accent) === */
 .container-wrapper button[type="submit"] {
-  background-color: #000;
-  color: white;
-  padding: 0.75rem 1rem;
-  border: none;
+  padding: 1rem;
   font-size: 1rem;
-  border-radius: 8px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  color: #000;
+  border: none;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 255, 254, 0.3);
+  transition: all 0.3s ease;
 }
 
 .container-wrapper button[type="submit"]:hover {
-  background-color: #333;
+  box-shadow: 0 12px 28px rgba(0, 255, 254, 0.5);
+  transform: translateY(-2px);
 }

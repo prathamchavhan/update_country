@@ -12,8 +12,10 @@ export const Headers =()=>{
         <ul className="nav-links">
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/About">About</NavLink></li>
-          <li><NavLink to="/Contact">contact</NavLink></li>
+          <li><NavLink to="/Contact">Contact</NavLink></li>
           <li><NavLink to="/Countryo">Countryo</NavLink></li>
+          <li><NavLink to ="/Login">Login</NavLink></li>
+           <li><NavLink to ="/Signup">Signup</NavLink></li>
         </ul>
       </nav>
 

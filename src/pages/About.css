@@ -1,57 +1,52 @@
-
 .section-about {
-  padding: 4rem 2rem;
-  background-color: #f9f9f9;
+  padding: 5rem 2rem;
+  background: #0a0a0a;
   text-align: center;
 }
 
-
 .container-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: #333;
+  background: linear-gradient(to right, #ffffff, #fafafa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 3rem;
-  text-transform: capitalize;
 }
-
 
 .gradient-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  padding: 0 1rem;
 }
 
 .card {
-  background: linear-gradient(to bottom right, #444d4d, #0c0c0c);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  color: #fff;
-  transition: transform 0.3s, background 0.4s, box-shadow 0.4s;
-  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  color: white;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  background: linear-gradient(to bottom right, #375050, #0b0c0d);
-  box-shadow: 0 12px 30px rgba(14, 15, 15, 0.4);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 32px rgba(0, 255, 255, 0.2);
 }
 
 .bg-blue-box {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.08);
   padding: 1.5rem;
   border-radius: 15px;
 }
 
-
 .card-title p {
+  font-size: 1.2rem;
+  font-weight: bold;
   margin: 0.5rem 0;
-  font-size: 1rem;
 }
 
 .class-discription {
-  font-weight: 500;
   font-size: 1rem;
-  color: #ffffff;
+  color: #dddddd;
 }

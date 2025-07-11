@@ -1,0 +1,105 @@
+.country-container {
+  min-height: 100vh;
+  background: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.country-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-box input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #fff;
+  width: 250px;
+}
+
+.input-box input::placeholder {
+  color: #999;
+}
+
+.add-btn {
+  padding: 0.7rem 1rem;
+  border: none;
+  background: #00f2fe;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+.country-list li {
+  background: #1c1c1c;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.country-list li input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.country-list button {
+  background: none;
+  border: none;
+  color: #00f2fe;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+
+.footer {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  
+  .footer span {
+  color: #050101;
+  font-size: 1rem;
+}
+}
+
+.clear-btn {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #e63946;
+  color: #fff;
+  cursor: pointer;
+}
